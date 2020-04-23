@@ -3,7 +3,7 @@ import { WebView } from 'react-native-webview'
 
 const App = () => (
   <WebView
-    source={{ uri: 'http://www.test.fr' }}
+    source={{ uri: 'https://mmorier.github.io/rn-webview-cookie-bug/' }}
     startInLoadingState
     style={{ flex: 1 }}
     useWebKit
