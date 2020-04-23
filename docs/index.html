@@ -11,7 +11,7 @@
       document.write(
         document.cookie
           .split(';')
-          .find((item) => item.trim().startsWith('auth_test='))
+          .find((item) => item.trim().startsWith('auth_test=')),
       )
     </script>
     <br /><br />
@@ -25,5 +25,8 @@
     >
       Remove auth_test cookie</button
     ><br /><br />
+    <button onclick="document.location.reload()">
+      reload the web page
+    </button>
   </body>
 </html>
