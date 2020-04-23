@@ -3,5 +3,5 @@ module.exports = {
   jsxBracketSameLine: true,
   semi: false,
   singleQuote: true,
-  trailingComma: 'es5',
+  trailingComma: 'all',
 }
