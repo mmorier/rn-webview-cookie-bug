@@ -6,6 +6,8 @@ The issue is that the cookies are not the good ones when you start the applicati
 
 It can be a big issue because a user thinks he logout from the application but is not in the end.
 
+I fill an issue on react-native-webview component: https://github.com/react-native-community/react-native-webview/issues/1345.
+
 # How to reproduce it
 
 1. Launch the application on an Android (device or emulator)
